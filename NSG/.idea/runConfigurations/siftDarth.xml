@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="sift测试集上测试Darth" type="CMakeRunConfiguration" factoryName="Application" folderName="Darth测试" PROGRAM_PARAMS="--dataset=SIFT1M --K=100 --L=100 --mode=Darth_test_time --query_type=test --query_num=10000 --ipi=1825 --mpi=365 --model_path=$PROJECT_DIR$/../NSG-data/predictor_models/darth/SIFT1M/k100/efS500_s10000_nestim100_all_feats.txt --target_recall=0.95" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="efanna2e" TARGET_NAME="test_nsg_optimized_search" CONFIG_NAME="lxx-Release" RUN_TARGET_PROJECT_NAME="efanna2e" RUN_TARGET_NAME="test_nsg_optimized_search">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

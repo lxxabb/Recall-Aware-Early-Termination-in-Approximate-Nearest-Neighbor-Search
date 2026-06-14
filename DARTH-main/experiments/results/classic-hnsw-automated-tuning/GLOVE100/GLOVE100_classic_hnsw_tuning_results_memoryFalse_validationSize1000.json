@@ -1,0 +1,134 @@
+{
+    "GLOVE100": {
+        "10": {
+            "0.8": {
+                "min_efS": 130,
+                "avg_recall": 0.8034000000000001,
+                "total_experiments": 8,
+                "total_tuning_time": 56353.28147999999
+            },
+            "0.85": {
+                "min_efS": 230,
+                "avg_recall": 0.85,
+                "total_experiments": 8,
+                "total_tuning_time": 61186.021781999996
+            },
+            "0.9": {
+                "min_efS": 570,
+                "avg_recall": 0.901,
+                "total_experiments": 9,
+                "total_tuning_time": 91589.38067200001
+            },
+            "0.95": {
+                "min_efS": 2870,
+                "avg_recall": 0.95,
+                "total_experiments": 8,
+                "total_tuning_time": 704100.089283
+            }
+        },
+        "25": {
+            "0.8": {
+                "min_efS": 140,
+                "avg_recall": 0.80104,
+                "total_experiments": 8,
+                "total_tuning_time": 57236.02319
+            },
+            "0.85": {
+                "min_efS": 260,
+                "avg_recall": 0.8518,
+                "total_experiments": 8,
+                "total_tuning_time": 63720.037437000006
+            },
+            "0.9": {
+                "min_efS": 570,
+                "avg_recall": 0.9008400000000001,
+                "total_experiments": 9,
+                "total_tuning_time": 92613.65216299999
+            },
+            "0.95": {
+                "min_efS": 2250,
+                "avg_recall": 0.95,
+                "total_experiments": 9,
+                "total_tuning_time": 529407.821646
+            }
+        },
+        "50": {
+            "0.8": {
+                "min_efS": 180,
+                "avg_recall": 0.8041800000000001,
+                "total_experiments": 9,
+                "total_tuning_time": 60223.21198300001
+            },
+            "0.85": {
+                "min_efS": 310,
+                "avg_recall": 0.8509800000000001,
+                "total_experiments": 8,
+                "total_tuning_time": 66083.385208
+            },
+            "0.9": {
+                "min_efS": 650,
+                "avg_recall": 0.9001,
+                "total_experiments": 9,
+                "total_tuning_time": 103209.31343299999
+            },
+            "0.95": {
+                "min_efS": 2380,
+                "avg_recall": 0.9500599999999999,
+                "total_experiments": 8,
+                "total_tuning_time": 558186.364637
+            }
+        },
+        "75": {
+            "0.8": {
+                "min_efS": 200,
+                "avg_recall": 0.801080018,
+                "total_experiments": 8,
+                "total_tuning_time": 62740.736730000004
+            },
+            "0.85": {
+                "min_efS": 350,
+                "avg_recall": 0.852133366,
+                "total_experiments": 8,
+                "total_tuning_time": 67245.153375
+            },
+            "0.9": {
+                "min_efS": 720,
+                "avg_recall": 0.900013364,
+                "total_experiments": 8,
+                "total_tuning_time": 100543.416781
+            },
+            "0.95": {
+                "min_efS": 2430,
+                "avg_recall": 0.9501066920000001,
+                "total_experiments": 9,
+                "total_tuning_time": 634489.023014
+            }
+        },
+        "100": {
+            "0.8": {
+                "min_efS": 230,
+                "avg_recall": 0.8035899999999999,
+                "total_experiments": 8,
+                "total_tuning_time": 63400.106921000006
+            },
+            "0.85": {
+                "min_efS": 380,
+                "avg_recall": 0.8506699999999999,
+                "total_experiments": 9,
+                "total_tuning_time": 72407.171713
+            },
+            "0.9": {
+                "min_efS": 780,
+                "avg_recall": 0.90098,
+                "total_experiments": 8,
+                "total_tuning_time": 133308.91348
+            },
+            "0.95": {
+                "min_efS": 2570,
+                "avg_recall": 0.95008,
+                "total_experiments": 9,
+                "total_tuning_time": 683996.471198
+            }
+        }
+    }
+}

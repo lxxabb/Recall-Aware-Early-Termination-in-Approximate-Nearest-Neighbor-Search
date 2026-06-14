@@ -1,0 +1,3 @@
+manage_glove.py：处理 GLOVE100 数据集，包括从 HDF5 文件读取数据、解析文本格式向量、划分训练集和查询集，并将向量数据写入 fvecs 格式文件。
+noisy_query_generator.py：为不同数据集（如 SIFT100M、DEEP100M 等）生成带高斯噪声的查询向量。计算噪声查询的真实邻居（groundtruth）并保存为 ivecs 和 fvecs 格式，用于鲁棒性测试或噪声敏感模型的训练。
+organize_datasets.py：提供数据组织工具，如write_ivecs函数用于将索引数据写入 ivecs 格式文件，规范数据集的存储格式。

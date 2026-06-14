@@ -1,0 +1,1 @@
+#训练数据已经收集完成，在2-LAET目录中，已经实现收集。存放在/root/NSG-data/train_data/Laet_Darth_train_data/中

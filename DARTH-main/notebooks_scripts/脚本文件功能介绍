@@ -1,0 +1,23 @@
+
+extract_data_stats.py
+用于提取数据的统计特征。可能对原始数据集（如向量数据）进行分析，计算维度分布、均值、方差、距离分布等统计信息，辅助理解数据特性。
+laet_training.py
+用于训练 LAET（可能是某种特定任务的模型，如早期终止相关）预测模型。通过读取不同数据集（如 SIFT100M、T2I100M 等）的向量数据和特征，构建输入特征集和目标变量，使用 LightGBM 回归模型进行训练，并将模型保存到指定路径。
+predictor_comparison.py
+用于对比不同预测模型的性能。可能加载多个训练好的预测模型，在相同测试集上进行评估，从预测精度、效率等方面进行对比分析，输出对比结果（如表格、图表数据）。
+predictor_training.py
+通用的预测器训练脚本。支持多种特征组合（如索引 metrics、邻居距离、邻居统计量等）和模型（如 LightGBM），遍历不同数据集、训练查询数量、k 值等参数，训练预测模型并记录训练时间、特征重要性等结果，保存为 JSON 文件。
+predictor_training_dims.py
+针对数据维度相关的预测器训练脚本。与predictor_training.py类似，但可能更侧重不同数据维度对模型的影响，通过定义数据集的维度等参数，训练模型并将结果保存为 JSON 文件。
+predictor_validation.py
+用于验证预测器的性能。加载训练好的预测模型，在验证数据集上进行测试，计算如 MAE、MSE、R² 等评估指标，验证模型的泛化能力和预测准确性。
+
+
+ivf_predictor_training.py
+用于训练 IVF（Inverted File）索引相关的预测模型。通过定义不同数据集（如 GLOVE100、GIST1M 等）的参数（nlist、nprobe 等），遍历训练查询数量、k 值、日志间隔等参数，调用train_predictors函数进行模型训练，并将训练结果保存为 JSON 文件。
+ivf_predictor_validation.py
+推测用于验证 IVF 预测模型的性能。可能加载训练好的 IVF 预测模型，在测试数据集上进行验证，计算如准确率、误差等评估指标，以检验模型的有效性。
+ivf_print_heuristic_stats.py
+用于打印 IVF 索引相关的启发式统计信息。可能包括 IVF 索引在不同参数设置下的一些基础统计数据（如查询效率、召回率分布等），为模型优化或参数调整提供参考。
+ivf_extract_data_stats.py
+专门用于提取 IVF 索引相关数据的统计信息。可能针对 IVF 索引构建过程中产生的数据（如倒排表分布、聚类中心特征等）进行统计分析，为 IVF 模型的训练和优化提供数据支持。

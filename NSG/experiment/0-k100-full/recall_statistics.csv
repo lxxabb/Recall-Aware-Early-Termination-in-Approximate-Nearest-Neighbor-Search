@@ -1,0 +1,6 @@
+method,dataset,target_recall,total_queries,hit_queries,hit_ratio
+raet_CNS_regression,GIST1M,0.95,1000,531,53.10%
+raet_CNS_regression,GIST1M,0.96,1000,507,50.70%
+raet_CNS_regression,GIST1M,0.97,1000,469,46.90%
+raet_CNS_regression,GIST1M,0.98,1000,508,50.80%
+raet_CNS_regression,GIST1M,0.99,1000,473,47.30%

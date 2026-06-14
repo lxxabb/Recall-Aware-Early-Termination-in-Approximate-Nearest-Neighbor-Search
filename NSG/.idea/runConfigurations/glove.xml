@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="glove数据集测试" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--dataset=GLOVE100 --K=100 --L=500 --mode=our_Raet_CNS_test_regression --query_type=test --query_num=10000 --model_path=$PROJECT_DIR$/../NSG-data/predictor_models/raet-cns-regression/GLOVE100/k100/efS500_s10000_nestim100_all_feats_0.95_quantile50_Noquery_Noske_Nodensty.txt --out_put_path=$PROJECT_DIR$/../NSG-data/results/raet_CNS_regression/GLOVE100/k100/efS500_s10000_tr0.95_test.txt --target_recall=0.95" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="efanna2e" TARGET_NAME="test_nsg_optimized_search" CONFIG_NAME="lxx-Release" RUN_TARGET_PROJECT_NAME="efanna2e" RUN_TARGET_NAME="test_nsg_optimized_search">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

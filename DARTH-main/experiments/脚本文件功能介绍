@@ -1,0 +1,41 @@
+hnsw_baseline_naive_early_stop.sh
+基于 HNSW 索引进行朴素早停（Naive Early Stop）策略的基准测试。在搜索过程中引入早停机制，测试不同参数（如目标召回率、噪声水平）下的性能，输出并合并实验结果，用于与其他早停策略（如 LAET）对比。
+
+hnsw_create_index.sh
+用于创建 HNSW（Hierarchical Navigable Small World）索引。通过指定数据集、参数（如M、efConstruction等），调用相关工具构建 HNSW 索引文件，为后续的搜索实验提供基础索引数据。
+
+hnsw_darth_test.sh
+用于测试 DARTH 策略在 HNSW 索引上的性能。DARTH 可能是一种优化的搜索或早停策略，脚本通过设置相关参数（如初始预测间隔、最小预测间隔），运行实验并记录结果，分析该策略的有效性。
+
+hnsw_laet_test.sh
+测试 LAET（可能是一种基于学习的早停策略）在 HNSW 索引上的性能。配置数据集、k值、目标召回率、噪声水平等参数，加载预训练的预测模型，运行带 LAET 策略的搜索实验，记录并合并结果，评估其在效率和召回率上的表现。
+
+hnsw_plain_search.sh
+执行 HNSW 索引的基础搜索实验（无早停机制）。设置不同数据集、k值（返回邻居数）、噪声参数等，运行搜索测试并将结果（如召回率、耗时）输出到指定文件，同时可能调用result_merger.py合并多次实验结果。
+
+hnsw_rem.sh
+可能用于 HNSW 索引的 “移除” 或 “重置” 相关操作。例如清理旧索引文件、实验结果，或重置测试环境，确保后续实验的独立性和准确性。
+
+hnsw_training_data_generation.sh
+生成 HNSW 索引的训练数据。通过运行特定搜索任务，收集如查询耗时、邻居特征等数据，用于训练预测模型（如 LAET、DARTH 中的预测器），为策略优化提供数据支持。
+
+hnsw_validation_interval_tuning.sh
+用于调优 HNSW 索引的验证间隔参数。通过遍历不同的间隔参数，运行验证实验，确定在目标召回率和效率之间平衡的最优间隔设置，为后续实验提供参数参考。
+
+ivf_darth.sh
+针对 IVF（Inverted File）索引测试 DARTH 策略。配置 IVF 的nlist（聚类数）、nprobe（探测聚类数）等参数，结合 DARTH 策略进行搜索实验，输出结果并合并，评估在 IVF 索引上的性能表现。
+
+ivf_plain_search.sh
+执行 IVF 索引的基础搜索实验（无早停机制）。设置nlist、nprobe、k值等参数，运行搜索测试并输出结果，作为 IVF 索引的基准性能数据，用于与带优化策略的实验对比。
+
+ivf_training_data_generation.sh
+生成 IVF 索引的训练数据。类似hnsw_training_data_generation.sh，针对 IVF 索引的特性（如聚类中心、倒排表）收集训练所需的统计特征和标签，用于训练 IVF 相关的预测模型。
+
+result_merger.py
+合并多次实验的结果。接收实验结果文件路径、输出文件名和实验次数，将多次重复实验的结果（如耗时、召回率）进行聚合（如取均值、标准差），生成汇总结果文件，方便后续分析。
+
+tuning.py
+自动化调优 HNSW 索引的参数。支持两种调优模式：
+LAET 调优：通过二分搜索寻找最小的prediction-multiplier，在满足目标召回率的同时优化效率。
+经典 HNSW 调优：搜索最优的efSearch参数（影响搜索精度和速度）。
+调优结果以 JSON 格式保存，为实验提供最优参数配置。

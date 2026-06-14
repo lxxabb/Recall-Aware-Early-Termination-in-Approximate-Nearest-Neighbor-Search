@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="获取达到要求准确率的最小CNS" type="CMakeRunConfiguration" factoryName="Application" folderName="test" PROGRAM_PARAMS="--dataset=SIFT1M --query-type=train --L=100 --K=100 --recall=0.99 --mode=get_train_CNS" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="efanna2e" TARGET_NAME="test_nsg_optimized_search" CONFIG_NAME="lxx-Release" RUN_TARGET_PROJECT_NAME="efanna2e" RUN_TARGET_NAME="test_nsg_optimized_search">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

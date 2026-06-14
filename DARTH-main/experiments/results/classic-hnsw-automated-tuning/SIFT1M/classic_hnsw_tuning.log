@@ -1,0 +1,1271 @@
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS1510_qs1000_tr0.95.txt
+   M: 32, efConstruction: 500, efSearch: 1510, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.950000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 2.922s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 2.947s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 4.915s
+
+
+Index[M=32, efC=500, efS=1510]IndexTime: 4.914741s, SearchTime: 35.001949s, TotalTime: 42.911608s, Recall@100: 1.0000
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS760_qs1000_tr0.95.txt
+   M: 32, efConstruction: 500, efSearch: 760, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.950000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.453s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.457s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.953s
+
+
+Index[M=32, efC=500, efS=760]IndexTime: 0.953097s, SearchTime: 13.612533s, TotalTime: 15.070894s, Recall@100: 0.9999
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS380_qs1000_tr0.95.txt
+   M: 32, efConstruction: 500, efSearch: 380, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.950000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.419s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.423s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.880s
+
+
+Index[M=32, efC=500, efS=380]IndexTime: 0.880261s, SearchTime: 7.207069s, TotalTime: 8.563680s, Recall@100: 0.9994
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS190_qs1000_tr0.95.txt
+   M: 32, efConstruction: 500, efSearch: 190, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.950000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.467s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.471s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.848s
+
+
+Index[M=32, efC=500, efS=190]IndexTime: 0.847933s, SearchTime: 3.691993s, TotalTime: 5.062979s, Recall@100: 0.9956
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS100_qs1000_tr0.95.txt
+   M: 32, efConstruction: 500, efSearch: 100, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.950000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.413s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.417s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.839s
+
+
+Index[M=32, efC=500, efS=100]IndexTime: 0.838891s, SearchTime: 1.903621s, TotalTime: 3.207249s, Recall@100: 0.9790
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS50_qs1000_tr0.95.txt
+   M: 32, efConstruction: 500, efSearch: 50, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.950000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.560s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.565s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 1.192s
+
+
+Index[M=32, efC=500, efS=50]IndexTime: 1.191922s, SearchTime: 1.390395s, TotalTime: 3.195976s, Recall@100: 0.9223
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS70_qs1000_tr0.95.txt
+   M: 32, efConstruction: 500, efSearch: 70, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.950000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.561s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.566s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 1.218s
+
+
+Index[M=32, efC=500, efS=70]IndexTime: 1.218161s, SearchTime: 1.879858s, TotalTime: 3.712090s, Recall@100: 0.9565
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS60_qs1000_tr0.95.txt
+   M: 32, efConstruction: 500, efSearch: 60, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.950000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.566s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.571s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 1.184s
+
+
+Index[M=32, efC=500, efS=60]IndexTime: 1.183588s, SearchTime: 1.563967s, TotalTime: 3.366206s, Recall@100: 0.9423
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS1510_qs1000_tr0.96.txt
+   M: 32, efConstruction: 500, efSearch: 1510, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.960000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.565s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.570s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 1.194s
+
+
+Index[M=32, efC=500, efS=1510]IndexTime: 1.194003s, SearchTime: 36.062354s, TotalTime: 37.874548s, Recall@100: 1.0000
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS760_qs1000_tr0.96.txt
+   M: 32, efConstruction: 500, efSearch: 760, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.960000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.466s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.470s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.999s
+
+
+Index[M=32, efC=500, efS=760]IndexTime: 0.998513s, SearchTime: 13.709873s, TotalTime: 15.226027s, Recall@100: 0.9999
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS380_qs1000_tr0.96.txt
+   M: 32, efConstruction: 500, efSearch: 380, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.960000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.505s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.511s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 1.307s
+
+
+Index[M=32, efC=500, efS=380]IndexTime: 1.306778s, SearchTime: 6.574654s, TotalTime: 8.441198s, Recall@100: 0.9994
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS190_qs1000_tr0.96.txt
+   M: 32, efConstruction: 500, efSearch: 190, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.960000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.429s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.433s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.942s
+
+
+Index[M=32, efC=500, efS=190]IndexTime: 0.942221s, SearchTime: 3.048975s, TotalTime: 4.471672s, Recall@100: 0.9956
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS100_qs1000_tr0.96.txt
+   M: 32, efConstruction: 500, efSearch: 100, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.960000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.418s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.422s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 1.214s
+
+
+Index[M=32, efC=500, efS=100]IndexTime: 1.213916s, SearchTime: 2.412891s, TotalTime: 4.097628s, Recall@100: 0.9790
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS50_qs1000_tr0.96.txt
+   M: 32, efConstruction: 500, efSearch: 50, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.960000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.579s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.584s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 1.188s
+
+
+Index[M=32, efC=500, efS=50]IndexTime: 1.187971s, SearchTime: 1.412393s, TotalTime: 3.232559s, Recall@100: 0.9223
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS70_qs1000_tr0.96.txt
+   M: 32, efConstruction: 500, efSearch: 70, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.960000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.562s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.567s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 1.189s
+
+
+Index[M=32, efC=500, efS=70]IndexTime: 1.188653s, SearchTime: 1.697739s, TotalTime: 3.501622s, Recall@100: 0.9565
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS80_qs1000_tr0.96.txt
+   M: 32, efConstruction: 500, efSearch: 80, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.960000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.566s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.570s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 1.184s
+
+
+Index[M=32, efC=500, efS=80]IndexTime: 1.183825s, SearchTime: 1.870430s, TotalTime: 3.672342s, Recall@100: 0.9668
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS1510_qs1000_tr0.97.txt
+   M: 32, efConstruction: 500, efSearch: 1510, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.970000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.567s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.572s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 1.186s
+
+
+Index[M=32, efC=500, efS=1510]IndexTime: 1.185718s, SearchTime: 36.970536s, TotalTime: 38.776526s, Recall@100: 1.0000
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS760_qs1000_tr0.97.txt
+   M: 32, efConstruction: 500, efSearch: 760, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.970000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.456s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.460s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.950s
+
+
+Index[M=32, efC=500, efS=760]IndexTime: 0.950393s, SearchTime: 12.912721s, TotalTime: 14.375400s, Recall@100: 0.9999
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS380_qs1000_tr0.97.txt
+   M: 32, efConstruction: 500, efSearch: 380, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.970000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.413s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.417s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.842s
+
+
+Index[M=32, efC=500, efS=380]IndexTime: 0.841960s, SearchTime: 5.830757s, TotalTime: 7.138363s, Recall@100: 0.9994
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS190_qs1000_tr0.97.txt
+   M: 32, efConstruction: 500, efSearch: 190, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.970000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.412s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.416s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.837s
+
+
+Index[M=32, efC=500, efS=190]IndexTime: 0.836875s, SearchTime: 3.040434s, TotalTime: 4.341528s, Recall@100: 0.9956
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS100_qs1000_tr0.97.txt
+   M: 32, efConstruction: 500, efSearch: 100, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.970000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.406s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.410s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.837s
+
+
+Index[M=32, efC=500, efS=100]IndexTime: 0.837254s, SearchTime: 1.826650s, TotalTime: 3.121260s, Recall@100: 0.9790
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS50_qs1000_tr0.97.txt
+   M: 32, efConstruction: 500, efSearch: 50, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.970000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.415s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.420s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.838s
+
+
+Index[M=32, efC=500, efS=50]IndexTime: 0.838100s, SearchTime: 1.217931s, TotalTime: 2.523375s, Recall@100: 0.9223
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS70_qs1000_tr0.97.txt
+   M: 32, efConstruction: 500, efSearch: 70, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.970000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.419s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.423s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.846s
+
+
+Index[M=32, efC=500, efS=70]IndexTime: 0.845600s, SearchTime: 1.701999s, TotalTime: 3.018137s, Recall@100: 0.9565
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS80_qs1000_tr0.97.txt
+   M: 32, efConstruction: 500, efSearch: 80, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.970000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.570s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.575s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 1.193s
+
+
+Index[M=32, efC=500, efS=80]IndexTime: 1.192920s, SearchTime: 1.887138s, TotalTime: 3.703259s, Recall@100: 0.9668
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS90_qs1000_tr0.97.txt
+   M: 32, efConstruction: 500, efSearch: 90, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.970000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.567s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.572s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 1.187s
+
+
+Index[M=32, efC=500, efS=90]IndexTime: 1.187139s, SearchTime: 2.013155s, TotalTime: 3.820145s, Recall@100: 0.9740
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS1510_qs1000_tr0.98.txt
+   M: 32, efConstruction: 500, efSearch: 1510, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.980000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.563s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.568s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 1.183s
+
+
+Index[M=32, efC=500, efS=1510]IndexTime: 1.183445s, SearchTime: 35.122770s, TotalTime: 36.921770s, Recall@100: 1.0000
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS760_qs1000_tr0.98.txt
+   M: 32, efConstruction: 500, efSearch: 760, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.980000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.465s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.469s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.943s
+
+
+Index[M=32, efC=500, efS=760]IndexTime: 0.942719s, SearchTime: 13.509695s, TotalTime: 14.969188s, Recall@100: 0.9999
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS380_qs1000_tr0.98.txt
+   M: 32, efConstruction: 500, efSearch: 380, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.980000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.416s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.420s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.850s
+
+
+Index[M=32, efC=500, efS=380]IndexTime: 0.849943s, SearchTime: 5.810771s, TotalTime: 7.129238s, Recall@100: 0.9994
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS190_qs1000_tr0.98.txt
+   M: 32, efConstruction: 500, efSearch: 190, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.980000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.407s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.411s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 1.030s
+
+
+Index[M=32, efC=500, efS=190]IndexTime: 1.029530s, SearchTime: 3.070412s, TotalTime: 4.558593s, Recall@100: 0.9956
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS100_qs1000_tr0.98.txt
+   M: 32, efConstruction: 500, efSearch: 100, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.980000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.406s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.410s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.837s
+
+
+Index[M=32, efC=500, efS=100]IndexTime: 0.837369s, SearchTime: 1.911133s, TotalTime: 3.205984s, Recall@100: 0.9790
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS140_qs1000_tr0.98.txt
+   M: 32, efConstruction: 500, efSearch: 140, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.980000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.411s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.415s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.845s
+
+
+Index[M=32, efC=500, efS=140]IndexTime: 0.845189s, SearchTime: 2.387580s, TotalTime: 3.695510s, Recall@100: 0.9901
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS120_qs1000_tr0.98.txt
+   M: 32, efConstruction: 500, efSearch: 120, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.980000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.403s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.407s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 1.155s
+
+
+Index[M=32, efC=500, efS=120]IndexTime: 1.154711s, SearchTime: 2.123378s, TotalTime: 3.733031s, Recall@100: 0.9859
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS110_qs1000_tr0.98.txt
+   M: 32, efConstruction: 500, efSearch: 110, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.980000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.407s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.411s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.852s
+
+
+Index[M=32, efC=500, efS=110]IndexTime: 0.851538s, SearchTime: 1.951309s, TotalTime: 3.262289s, Recall@100: 0.9828
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS1510_qs1000_tr0.99.txt
+   M: 32, efConstruction: 500, efSearch: 1510, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.990000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.411s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.414s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.842s
+
+
+Index[M=32, efC=500, efS=1510]IndexTime: 0.841921s, SearchTime: 36.371162s, TotalTime: 37.675440s, Recall@100: 1.0000
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS760_qs1000_tr0.99.txt
+   M: 32, efConstruction: 500, efSearch: 760, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.990000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.411s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.415s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.934s
+
+
+Index[M=32, efC=500, efS=760]IndexTime: 0.933915s, SearchTime: 13.267878s, TotalTime: 14.668282s, Recall@100: 0.9999
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS380_qs1000_tr0.99.txt
+   M: 32, efConstruction: 500, efSearch: 380, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.990000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.412s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.416s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.859s
+
+
+Index[M=32, efC=500, efS=380]IndexTime: 0.858879s, SearchTime: 5.823785s, TotalTime: 7.146795s, Recall@100: 0.9994
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS190_qs1000_tr0.99.txt
+   M: 32, efConstruction: 500, efSearch: 190, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.990000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.411s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.415s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.848s
+
+
+Index[M=32, efC=500, efS=190]IndexTime: 0.847893s, SearchTime: 3.054108s, TotalTime: 4.365138s, Recall@100: 0.9956
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS100_qs1000_tr0.99.txt
+   M: 32, efConstruction: 500, efSearch: 100, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.990000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.412s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.416s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.848s
+
+
+Index[M=32, efC=500, efS=100]IndexTime: 0.848269s, SearchTime: 1.848333s, TotalTime: 3.160725s, Recall@100: 0.9790
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS140_qs1000_tr0.99.txt
+   M: 32, efConstruction: 500, efSearch: 140, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.990000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.407s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.411s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.838s
+
+
+Index[M=32, efC=500, efS=140]IndexTime: 0.838155s, SearchTime: 2.368023s, TotalTime: 3.664902s, Recall@100: 0.9901
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS120_qs1000_tr0.99.txt
+   M: 32, efConstruction: 500, efSearch: 120, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.990000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.414s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.418s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.845s
+
+
+Index[M=32, efC=500, efS=120]IndexTime: 0.845185s, SearchTime: 2.120707s, TotalTime: 3.432273s, Recall@100: 0.9859
+
+
+>>Parameters:
+   dataset: SIFT1M
+   nQ: 1000
+   output: ./results/classic-hnsw-automated-tuning/SIFT1M/k100/M32_efC500_efS130_qs1000_tr0.99.txt
+   M: 32, efConstruction: 500, efSearch: 130, k: 100
+   index_filepath: /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+   save_index: no
+   mode: No Early Termination Testing
+   target_recall: 0.990000
+   logging_interval: 10
+   initial_prediction_interval: 1000, min_prediction_interval: 100
+   predictor_model_path: (null)
+   per_prediction_logging: no
+   query_type: Validation
+   dataset_dir_prefix: /home/extra_home/lxx23125236/ann-data/
+   verbose: no
+   gnoise perc: 5
+   [LAET] fixed_amount_of_search: 200, prediction_multiplier: 1.000000
+>> Loading base vectors from: /home/extra_home/lxx23125236/ann-data/sift/sift_base.fvecs
+>>SIFT1M DB loaded: d = 128, n = 1000000. Elapsed = 0.410s
+>> Loading queries from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000.fvecs
+>> Loading queries groundtruths from: /home/extra_home/lxx23125236/ann-data/sift/sift_validation_random1000_groundtruth.ivecs
+>>k=100, k_all=100
+>>Query Vectors and GT loaded: d = 128, nQ = 1000, k = 100, Elapsed = 0.414s
+>>Index loaded from /home/extra_home/lxx23125236/AKNNS_experiment/DARTH-main/data/HNSW-index/SIFT1M/SIFT1M.M32.efC500.index
+>>Index build time: 0.846s
+
+
+Index[M=32, efC=500, efS=130]IndexTime: 0.845878s, SearchTime: 2.252087s, TotalTime: 3.560055s, Recall@100: 0.9882
+
+

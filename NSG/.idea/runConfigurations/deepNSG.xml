@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="创建deepNSG图索引" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/../../ann-data/DEEP10M/deep10M.fvecs $PROJECT_DIR$/../NSG-data/deep_400nn.graph 60 70 500 $PROJECT_DIR$/../NSG-data/deep_60_70_500.nsg" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="efanna2e" TARGET_NAME="test_nsg_index" CONFIG_NAME="lxx-Release" RUN_TARGET_PROJECT_NAME="efanna2e" RUN_TARGET_NAME="test_nsg_index">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

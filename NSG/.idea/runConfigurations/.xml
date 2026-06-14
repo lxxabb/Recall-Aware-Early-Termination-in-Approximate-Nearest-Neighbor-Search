@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="稳定次数测试" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--dataset=SIFT1M --K=100 --L=500 --mode=our_Raet_recall_get_StablizeCount --query_type=train --query_num=10000 --out_put_path=$PROJECT_DIR$/../NSG-data/results/raet/SIFT1M/k100/stablity/test99.txt --target_recall=0.99" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="efanna2e" TARGET_NAME="test_nsg_optimized_search" CONFIG_NAME="lxx-Release" RUN_TARGET_PROJECT_NAME="efanna2e" RUN_TARGET_NAME="test_nsg_optimized_search">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

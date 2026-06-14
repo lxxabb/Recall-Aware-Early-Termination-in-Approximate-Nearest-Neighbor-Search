@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="Remote Host (06c44be9-b788-490f-9893-970b6f3d4597)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.nGuJw1XXKt" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="lxx-darth (4d576961-9cc1-4327-b678-d431e39fec4a)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.H39G4QsQLP" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-lxx" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release-lxx" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

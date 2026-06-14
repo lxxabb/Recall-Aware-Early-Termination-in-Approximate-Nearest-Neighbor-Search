@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="deep-k-100-99" type="CMakeRunConfiguration" factoryName="Application" folderName="deep训练集-获取稳定次数" PROGRAM_PARAMS="$PROJECT_DIR$/../../../ann-data/deep/deep10M.fvecs $PROJECT_DIR$/../../../ann-data/deep/deep10M_learn_10w_new.fvecs $PROJECT_DIR$/../../nsg-master/deep.nsg 600 100 $PROJECT_DIR$/../../../ann-data/deep/deep10M_learn_10wan_groundtruth_new.ivecs 0.99 get_StablizeCount $PROJECT_DIR$/train_everyPoint_stablize_count/deep/k_100_CNS_300_acc_99_train_every_stablize_count.csv 10" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="efanna2e" TARGET_NAME="test_nsg_optimized_search" CONFIG_NAME="lxx-Release" RUN_TARGET_PROJECT_NAME="efanna2e" RUN_TARGET_NAME="test_nsg_optimized_search">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

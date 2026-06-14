@@ -1,0 +1,561 @@
+{
+    "100": {
+        "10000": {
+            "1": {
+                "all_feats": {
+                    "training_time": 20.655307292938232,
+                    "training_data_size": 3147531,
+                    "learning_rate": 0.1,
+                    "feature_importances": [
+                        {
+                            "Feature": "step",
+                            "Importance": 322,
+                            "Importance_Ratio": 0.10733333333333334
+                        },
+                        {
+                            "Feature": "variance",
+                            "Importance": 181,
+                            "Importance_Ratio": 0.060333333333333336
+                        },
+                        {
+                            "Feature": "d26",
+                            "Importance": 119,
+                            "Importance_Ratio": 0.03966666666666667
+                        },
+                        {
+                            "Feature": "dists",
+                            "Importance": 89,
+                            "Importance_Ratio": 0.029666666666666668
+                        },
+                        {
+                            "Feature": "avg_dist",
+                            "Importance": 84,
+                            "Importance_Ratio": 0.028
+                        },
+                        {
+                            "Feature": "inserts",
+                            "Importance": 77,
+                            "Importance_Ratio": 0.025666666666666667
+                        },
+                        {
+                            "Feature": "d41",
+                            "Importance": 71,
+                            "Importance_Ratio": 0.023666666666666666
+                        },
+                        {
+                            "Feature": "d81",
+                            "Importance": 69,
+                            "Importance_Ratio": 0.023
+                        },
+                        {
+                            "Feature": "d35",
+                            "Importance": 63,
+                            "Importance_Ratio": 0.021
+                        },
+                        {
+                            "Feature": "d33",
+                            "Importance": 62,
+                            "Importance_Ratio": 0.020666666666666667
+                        },
+                        {
+                            "Feature": "visited_points",
+                            "Importance": 59,
+                            "Importance_Ratio": 0.019666666666666666
+                        },
+                        {
+                            "Feature": "d13",
+                            "Importance": 55,
+                            "Importance_Ratio": 0.018333333333333333
+                        },
+                        {
+                            "Feature": "d88",
+                            "Importance": 52,
+                            "Importance_Ratio": 0.017333333333333333
+                        },
+                        {
+                            "Feature": "d68",
+                            "Importance": 52,
+                            "Importance_Ratio": 0.017333333333333333
+                        },
+                        {
+                            "Feature": "d51",
+                            "Importance": 51,
+                            "Importance_Ratio": 0.017
+                        },
+                        {
+                            "Feature": "d45",
+                            "Importance": 51,
+                            "Importance_Ratio": 0.017
+                        },
+                        {
+                            "Feature": "d50",
+                            "Importance": 48,
+                            "Importance_Ratio": 0.016
+                        },
+                        {
+                            "Feature": "nn_dist",
+                            "Importance": 48,
+                            "Importance_Ratio": 0.016
+                        },
+                        {
+                            "Feature": "d95",
+                            "Importance": 47,
+                            "Importance_Ratio": 0.015666666666666666
+                        },
+                        {
+                            "Feature": "d46",
+                            "Importance": 38,
+                            "Importance_Ratio": 0.012666666666666666
+                        },
+                        {
+                            "Feature": "d55",
+                            "Importance": 38,
+                            "Importance_Ratio": 0.012666666666666666
+                        },
+                        {
+                            "Feature": "furthest_dist",
+                            "Importance": 38,
+                            "Importance_Ratio": 0.012666666666666666
+                        },
+                        {
+                            "Feature": "d32",
+                            "Importance": 37,
+                            "Importance_Ratio": 0.012333333333333333
+                        },
+                        {
+                            "Feature": "d44",
+                            "Importance": 36,
+                            "Importance_Ratio": 0.012
+                        },
+                        {
+                            "Feature": "d6",
+                            "Importance": 35,
+                            "Importance_Ratio": 0.011666666666666667
+                        },
+                        {
+                            "Feature": "first_nn_dist",
+                            "Importance": 34,
+                            "Importance_Ratio": 0.011333333333333334
+                        },
+                        {
+                            "Feature": "d47",
+                            "Importance": 32,
+                            "Importance_Ratio": 0.010666666666666666
+                        },
+                        {
+                            "Feature": "d72",
+                            "Importance": 32,
+                            "Importance_Ratio": 0.010666666666666666
+                        },
+                        {
+                            "Feature": "d1",
+                            "Importance": 31,
+                            "Importance_Ratio": 0.010333333333333333
+                        },
+                        {
+                            "Feature": "d96",
+                            "Importance": 30,
+                            "Importance_Ratio": 0.01
+                        },
+                        {
+                            "Feature": "d29",
+                            "Importance": 30,
+                            "Importance_Ratio": 0.01
+                        },
+                        {
+                            "Feature": "d100",
+                            "Importance": 29,
+                            "Importance_Ratio": 0.009666666666666667
+                        },
+                        {
+                            "Feature": "d48",
+                            "Importance": 28,
+                            "Importance_Ratio": 0.009333333333333334
+                        },
+                        {
+                            "Feature": "d10",
+                            "Importance": 27,
+                            "Importance_Ratio": 0.009
+                        },
+                        {
+                            "Feature": "d17",
+                            "Importance": 27,
+                            "Importance_Ratio": 0.009
+                        },
+                        {
+                            "Feature": "d19",
+                            "Importance": 26,
+                            "Importance_Ratio": 0.008666666666666666
+                        },
+                        {
+                            "Feature": "d65",
+                            "Importance": 25,
+                            "Importance_Ratio": 0.008333333333333333
+                        },
+                        {
+                            "Feature": "d87",
+                            "Importance": 25,
+                            "Importance_Ratio": 0.008333333333333333
+                        },
+                        {
+                            "Feature": "d20",
+                            "Importance": 24,
+                            "Importance_Ratio": 0.008
+                        },
+                        {
+                            "Feature": "d77",
+                            "Importance": 23,
+                            "Importance_Ratio": 0.007666666666666666
+                        },
+                        {
+                            "Feature": "d73",
+                            "Importance": 23,
+                            "Importance_Ratio": 0.007666666666666666
+                        },
+                        {
+                            "Feature": "d71",
+                            "Importance": 23,
+                            "Importance_Ratio": 0.007666666666666666
+                        },
+                        {
+                            "Feature": "d22",
+                            "Importance": 21,
+                            "Importance_Ratio": 0.007
+                        },
+                        {
+                            "Feature": "d80",
+                            "Importance": 19,
+                            "Importance_Ratio": 0.006333333333333333
+                        },
+                        {
+                            "Feature": "d78",
+                            "Importance": 18,
+                            "Importance_Ratio": 0.006
+                        },
+                        {
+                            "Feature": "d64",
+                            "Importance": 18,
+                            "Importance_Ratio": 0.006
+                        },
+                        {
+                            "Feature": "d83",
+                            "Importance": 18,
+                            "Importance_Ratio": 0.006
+                        },
+                        {
+                            "Feature": "d99",
+                            "Importance": 17,
+                            "Importance_Ratio": 0.005666666666666667
+                        },
+                        {
+                            "Feature": "d63",
+                            "Importance": 17,
+                            "Importance_Ratio": 0.005666666666666667
+                        },
+                        {
+                            "Feature": "d90",
+                            "Importance": 17,
+                            "Importance_Ratio": 0.005666666666666667
+                        },
+                        {
+                            "Feature": "d8",
+                            "Importance": 16,
+                            "Importance_Ratio": 0.005333333333333333
+                        },
+                        {
+                            "Feature": "d15",
+                            "Importance": 16,
+                            "Importance_Ratio": 0.005333333333333333
+                        },
+                        {
+                            "Feature": "d12",
+                            "Importance": 16,
+                            "Importance_Ratio": 0.005333333333333333
+                        },
+                        {
+                            "Feature": "d52",
+                            "Importance": 16,
+                            "Importance_Ratio": 0.005333333333333333
+                        },
+                        {
+                            "Feature": "d91",
+                            "Importance": 15,
+                            "Importance_Ratio": 0.005
+                        },
+                        {
+                            "Feature": "d54",
+                            "Importance": 15,
+                            "Importance_Ratio": 0.005
+                        },
+                        {
+                            "Feature": "d31",
+                            "Importance": 15,
+                            "Importance_Ratio": 0.005
+                        },
+                        {
+                            "Feature": "d79",
+                            "Importance": 14,
+                            "Importance_Ratio": 0.004666666666666667
+                        },
+                        {
+                            "Feature": "d62",
+                            "Importance": 14,
+                            "Importance_Ratio": 0.004666666666666667
+                        },
+                        {
+                            "Feature": "d61",
+                            "Importance": 14,
+                            "Importance_Ratio": 0.004666666666666667
+                        },
+                        {
+                            "Feature": "d42",
+                            "Importance": 14,
+                            "Importance_Ratio": 0.004666666666666667
+                        },
+                        {
+                            "Feature": "d25",
+                            "Importance": 14,
+                            "Importance_Ratio": 0.004666666666666667
+                        },
+                        {
+                            "Feature": "d2",
+                            "Importance": 14,
+                            "Importance_Ratio": 0.004666666666666667
+                        },
+                        {
+                            "Feature": "d16",
+                            "Importance": 14,
+                            "Importance_Ratio": 0.004666666666666667
+                        },
+                        {
+                            "Feature": "d75",
+                            "Importance": 13,
+                            "Importance_Ratio": 0.004333333333333333
+                        },
+                        {
+                            "Feature": "d82",
+                            "Importance": 13,
+                            "Importance_Ratio": 0.004333333333333333
+                        },
+                        {
+                            "Feature": "d60",
+                            "Importance": 13,
+                            "Importance_Ratio": 0.004333333333333333
+                        },
+                        {
+                            "Feature": "d21",
+                            "Importance": 13,
+                            "Importance_Ratio": 0.004333333333333333
+                        },
+                        {
+                            "Feature": "d76",
+                            "Importance": 12,
+                            "Importance_Ratio": 0.004
+                        },
+                        {
+                            "Feature": "d67",
+                            "Importance": 12,
+                            "Importance_Ratio": 0.004
+                        },
+                        {
+                            "Feature": "d93",
+                            "Importance": 12,
+                            "Importance_Ratio": 0.004
+                        },
+                        {
+                            "Feature": "d70",
+                            "Importance": 11,
+                            "Importance_Ratio": 0.0036666666666666666
+                        },
+                        {
+                            "Feature": "d92",
+                            "Importance": 11,
+                            "Importance_Ratio": 0.0036666666666666666
+                        },
+                        {
+                            "Feature": "d56",
+                            "Importance": 11,
+                            "Importance_Ratio": 0.0036666666666666666
+                        },
+                        {
+                            "Feature": "d43",
+                            "Importance": 10,
+                            "Importance_Ratio": 0.0033333333333333335
+                        },
+                        {
+                            "Feature": "d30",
+                            "Importance": 10,
+                            "Importance_Ratio": 0.0033333333333333335
+                        },
+                        {
+                            "Feature": "d7",
+                            "Importance": 10,
+                            "Importance_Ratio": 0.0033333333333333335
+                        },
+                        {
+                            "Feature": "d74",
+                            "Importance": 10,
+                            "Importance_Ratio": 0.0033333333333333335
+                        },
+                        {
+                            "Feature": "d98",
+                            "Importance": 9,
+                            "Importance_Ratio": 0.003
+                        },
+                        {
+                            "Feature": "d66",
+                            "Importance": 9,
+                            "Importance_Ratio": 0.003
+                        },
+                        {
+                            "Feature": "d57",
+                            "Importance": 9,
+                            "Importance_Ratio": 0.003
+                        },
+                        {
+                            "Feature": "d3",
+                            "Importance": 9,
+                            "Importance_Ratio": 0.003
+                        },
+                        {
+                            "Feature": "d94",
+                            "Importance": 9,
+                            "Importance_Ratio": 0.003
+                        },
+                        {
+                            "Feature": "d53",
+                            "Importance": 9,
+                            "Importance_Ratio": 0.003
+                        },
+                        {
+                            "Feature": "d85",
+                            "Importance": 8,
+                            "Importance_Ratio": 0.0026666666666666666
+                        },
+                        {
+                            "Feature": "d38",
+                            "Importance": 8,
+                            "Importance_Ratio": 0.0026666666666666666
+                        },
+                        {
+                            "Feature": "d89",
+                            "Importance": 8,
+                            "Importance_Ratio": 0.0026666666666666666
+                        },
+                        {
+                            "Feature": "d11",
+                            "Importance": 8,
+                            "Importance_Ratio": 0.0026666666666666666
+                        },
+                        {
+                            "Feature": "d36",
+                            "Importance": 7,
+                            "Importance_Ratio": 0.0023333333333333335
+                        },
+                        {
+                            "Feature": "d9",
+                            "Importance": 7,
+                            "Importance_Ratio": 0.0023333333333333335
+                        },
+                        {
+                            "Feature": "d5",
+                            "Importance": 7,
+                            "Importance_Ratio": 0.0023333333333333335
+                        },
+                        {
+                            "Feature": "d18",
+                            "Importance": 7,
+                            "Importance_Ratio": 0.0023333333333333335
+                        },
+                        {
+                            "Feature": "d23",
+                            "Importance": 7,
+                            "Importance_Ratio": 0.0023333333333333335
+                        },
+                        {
+                            "Feature": "d97",
+                            "Importance": 7,
+                            "Importance_Ratio": 0.0023333333333333335
+                        },
+                        {
+                            "Feature": "d69",
+                            "Importance": 7,
+                            "Importance_Ratio": 0.0023333333333333335
+                        },
+                        {
+                            "Feature": "d84",
+                            "Importance": 7,
+                            "Importance_Ratio": 0.0023333333333333335
+                        },
+                        {
+                            "Feature": "d58",
+                            "Importance": 7,
+                            "Importance_Ratio": 0.0023333333333333335
+                        },
+                        {
+                            "Feature": "d40",
+                            "Importance": 6,
+                            "Importance_Ratio": 0.002
+                        },
+                        {
+                            "Feature": "d27",
+                            "Importance": 6,
+                            "Importance_Ratio": 0.002
+                        },
+                        {
+                            "Feature": "d86",
+                            "Importance": 6,
+                            "Importance_Ratio": 0.002
+                        },
+                        {
+                            "Feature": "d4",
+                            "Importance": 5,
+                            "Importance_Ratio": 0.0016666666666666668
+                        },
+                        {
+                            "Feature": "d49",
+                            "Importance": 5,
+                            "Importance_Ratio": 0.0016666666666666668
+                        },
+                        {
+                            "Feature": "d24",
+                            "Importance": 4,
+                            "Importance_Ratio": 0.0013333333333333333
+                        },
+                        {
+                            "Feature": "d14",
+                            "Importance": 3,
+                            "Importance_Ratio": 0.001
+                        },
+                        {
+                            "Feature": "d34",
+                            "Importance": 3,
+                            "Importance_Ratio": 0.001
+                        },
+                        {
+                            "Feature": "d59",
+                            "Importance": 3,
+                            "Importance_Ratio": 0.001
+                        },
+                        {
+                            "Feature": "d39",
+                            "Importance": 3,
+                            "Importance_Ratio": 0.001
+                        },
+                        {
+                            "Feature": "d28",
+                            "Importance": 2,
+                            "Importance_Ratio": 0.0006666666666666666
+                        },
+                        {
+                            "Feature": "d37",
+                            "Importance": 1,
+                            "Importance_Ratio": 0.0003333333333333333
+                        }
+                    ],
+                    "n_estimators": 100
+                }
+            }
+        }
+    }
+}

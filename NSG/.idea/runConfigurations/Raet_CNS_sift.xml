@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Raet-CNS-sift测试" type="CMakeRunConfiguration" factoryName="Application" folderName="raet测试" PROGRAM_PARAMS="--dataset=SIFT1M --K=100 --L=174 --mode=our_Raet_CNS_test_regression --query_type=test --query_num=10000 --model_path=$PROJECT_DIR$/../NSG-data/predictor_models/raet-cns-regression/SIFT1M/k100/efS500_s10000_nestim100_all_feats_0.99_JieDuan.txt --target_recall=0.99" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="efanna2e" TARGET_NAME="test_nsg_optimized_search" CONFIG_NAME="lxx-Release" RUN_TARGET_PROJECT_NAME="efanna2e" RUN_TARGET_NAME="test_nsg_optimized_search">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

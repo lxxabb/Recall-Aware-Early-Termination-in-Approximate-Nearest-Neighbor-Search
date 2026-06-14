@@ -1,0 +1,568 @@
+{
+    "100": {
+        "10000": {
+            "1": {
+                "all_feats": {
+                    "training_time": 0.44603872299194336,
+                    "training_data_size": 10000,
+                    "learning_rate": 0.1,
+                    "feature_importances": [
+                        {
+                            "Feature": "dists",
+                            "Importance": 126
+                        },
+                        {
+                            "Feature": "avg_hop",
+                            "Importance": 113
+                        },
+                        {
+                            "Feature": "nn_dist",
+                            "Importance": 100
+                        },
+                        {
+                            "Feature": "avg_dist",
+                            "Importance": 78
+                        },
+                        {
+                            "Feature": "inserts",
+                            "Importance": 69
+                        },
+                        {
+                            "Feature": "variance",
+                            "Importance": 41
+                        },
+                        {
+                            "Feature": "visited_points",
+                            "Importance": 38
+                        },
+                        {
+                            "Feature": "d33",
+                            "Importance": 36
+                        },
+                        {
+                            "Feature": "d67",
+                            "Importance": 36
+                        },
+                        {
+                            "Feature": "d88",
+                            "Importance": 34
+                        },
+                        {
+                            "Feature": "d86",
+                            "Importance": 30
+                        },
+                        {
+                            "Feature": "d120",
+                            "Importance": 29
+                        },
+                        {
+                            "Feature": "d115",
+                            "Importance": 29
+                        },
+                        {
+                            "Feature": "d44",
+                            "Importance": 29
+                        },
+                        {
+                            "Feature": "d106",
+                            "Importance": 28
+                        },
+                        {
+                            "Feature": "d18",
+                            "Importance": 28
+                        },
+                        {
+                            "Feature": "first_nn_dist",
+                            "Importance": 28
+                        },
+                        {
+                            "Feature": "d79",
+                            "Importance": 27
+                        },
+                        {
+                            "Feature": "d85",
+                            "Importance": 27
+                        },
+                        {
+                            "Feature": "d109",
+                            "Importance": 27
+                        },
+                        {
+                            "Feature": "d66",
+                            "Importance": 27
+                        },
+                        {
+                            "Feature": "d19",
+                            "Importance": 27
+                        },
+                        {
+                            "Feature": "d107",
+                            "Importance": 27
+                        },
+                        {
+                            "Feature": "d14",
+                            "Importance": 26
+                        },
+                        {
+                            "Feature": "d99",
+                            "Importance": 26
+                        },
+                        {
+                            "Feature": "d4",
+                            "Importance": 26
+                        },
+                        {
+                            "Feature": "d65",
+                            "Importance": 26
+                        },
+                        {
+                            "Feature": "d71",
+                            "Importance": 26
+                        },
+                        {
+                            "Feature": "d60",
+                            "Importance": 25
+                        },
+                        {
+                            "Feature": "d96",
+                            "Importance": 25
+                        },
+                        {
+                            "Feature": "d61",
+                            "Importance": 25
+                        },
+                        {
+                            "Feature": "d35",
+                            "Importance": 25
+                        },
+                        {
+                            "Feature": "d5",
+                            "Importance": 25
+                        },
+                        {
+                            "Feature": "d87",
+                            "Importance": 24
+                        },
+                        {
+                            "Feature": "d126",
+                            "Importance": 24
+                        },
+                        {
+                            "Feature": "d100",
+                            "Importance": 24
+                        },
+                        {
+                            "Feature": "d101",
+                            "Importance": 24
+                        },
+                        {
+                            "Feature": "d104",
+                            "Importance": 23
+                        },
+                        {
+                            "Feature": "d69",
+                            "Importance": 23
+                        },
+                        {
+                            "Feature": "d90",
+                            "Importance": 23
+                        },
+                        {
+                            "Feature": "d7",
+                            "Importance": 23
+                        },
+                        {
+                            "Feature": "d28",
+                            "Importance": 23
+                        },
+                        {
+                            "Feature": "d29",
+                            "Importance": 22
+                        },
+                        {
+                            "Feature": "d16",
+                            "Importance": 22
+                        },
+                        {
+                            "Feature": "d111",
+                            "Importance": 22
+                        },
+                        {
+                            "Feature": "d103",
+                            "Importance": 22
+                        },
+                        {
+                            "Feature": "d98",
+                            "Importance": 22
+                        },
+                        {
+                            "Feature": "d108",
+                            "Importance": 22
+                        },
+                        {
+                            "Feature": "d84",
+                            "Importance": 22
+                        },
+                        {
+                            "Feature": "d78",
+                            "Importance": 22
+                        },
+                        {
+                            "Feature": "d64",
+                            "Importance": 22
+                        },
+                        {
+                            "Feature": "d114",
+                            "Importance": 21
+                        },
+                        {
+                            "Feature": "d1",
+                            "Importance": 21
+                        },
+                        {
+                            "Feature": "d117",
+                            "Importance": 21
+                        },
+                        {
+                            "Feature": "d116",
+                            "Importance": 21
+                        },
+                        {
+                            "Feature": "d13",
+                            "Importance": 21
+                        },
+                        {
+                            "Feature": "d62",
+                            "Importance": 20
+                        },
+                        {
+                            "Feature": "d50",
+                            "Importance": 20
+                        },
+                        {
+                            "Feature": "d54",
+                            "Importance": 20
+                        },
+                        {
+                            "Feature": "d6",
+                            "Importance": 20
+                        },
+                        {
+                            "Feature": "d48",
+                            "Importance": 20
+                        },
+                        {
+                            "Feature": "d127",
+                            "Importance": 19
+                        },
+                        {
+                            "Feature": "d9",
+                            "Importance": 19
+                        },
+                        {
+                            "Feature": "d95",
+                            "Importance": 19
+                        },
+                        {
+                            "Feature": "d59",
+                            "Importance": 19
+                        },
+                        {
+                            "Feature": "d58",
+                            "Importance": 19
+                        },
+                        {
+                            "Feature": "d53",
+                            "Importance": 18
+                        },
+                        {
+                            "Feature": "d110",
+                            "Importance": 18
+                        },
+                        {
+                            "Feature": "d45",
+                            "Importance": 18
+                        },
+                        {
+                            "Feature": "d38",
+                            "Importance": 18
+                        },
+                        {
+                            "Feature": "d55",
+                            "Importance": 18
+                        },
+                        {
+                            "Feature": "d12",
+                            "Importance": 18
+                        },
+                        {
+                            "Feature": "d32",
+                            "Importance": 18
+                        },
+                        {
+                            "Feature": "d34",
+                            "Importance": 18
+                        },
+                        {
+                            "Feature": "d11",
+                            "Importance": 17
+                        },
+                        {
+                            "Feature": "d15",
+                            "Importance": 17
+                        },
+                        {
+                            "Feature": "d72",
+                            "Importance": 17
+                        },
+                        {
+                            "Feature": "d89",
+                            "Importance": 17
+                        },
+                        {
+                            "Feature": "d74",
+                            "Importance": 17
+                        },
+                        {
+                            "Feature": "d31",
+                            "Importance": 17
+                        },
+                        {
+                            "Feature": "d51",
+                            "Importance": 17
+                        },
+                        {
+                            "Feature": "d2",
+                            "Importance": 17
+                        },
+                        {
+                            "Feature": "d43",
+                            "Importance": 16
+                        },
+                        {
+                            "Feature": "d36",
+                            "Importance": 16
+                        },
+                        {
+                            "Feature": "d119",
+                            "Importance": 16
+                        },
+                        {
+                            "Feature": "d73",
+                            "Importance": 16
+                        },
+                        {
+                            "Feature": "d82",
+                            "Importance": 16
+                        },
+                        {
+                            "Feature": "d122",
+                            "Importance": 16
+                        },
+                        {
+                            "Feature": "d121",
+                            "Importance": 16
+                        },
+                        {
+                            "Feature": "d102",
+                            "Importance": 16
+                        },
+                        {
+                            "Feature": "d30",
+                            "Importance": 16
+                        },
+                        {
+                            "Feature": "d80",
+                            "Importance": 16
+                        },
+                        {
+                            "Feature": "d41",
+                            "Importance": 16
+                        },
+                        {
+                            "Feature": "d125",
+                            "Importance": 15
+                        },
+                        {
+                            "Feature": "d123",
+                            "Importance": 15
+                        },
+                        {
+                            "Feature": "d25",
+                            "Importance": 15
+                        },
+                        {
+                            "Feature": "d47",
+                            "Importance": 15
+                        },
+                        {
+                            "Feature": "d21",
+                            "Importance": 15
+                        },
+                        {
+                            "Feature": "d68",
+                            "Importance": 15
+                        },
+                        {
+                            "Feature": "d42",
+                            "Importance": 15
+                        },
+                        {
+                            "Feature": "d76",
+                            "Importance": 14
+                        },
+                        {
+                            "Feature": "d97",
+                            "Importance": 14
+                        },
+                        {
+                            "Feature": "d26",
+                            "Importance": 14
+                        },
+                        {
+                            "Feature": "d10",
+                            "Importance": 14
+                        },
+                        {
+                            "Feature": "d3",
+                            "Importance": 14
+                        },
+                        {
+                            "Feature": "d39",
+                            "Importance": 14
+                        },
+                        {
+                            "Feature": "d91",
+                            "Importance": 14
+                        },
+                        {
+                            "Feature": "d75",
+                            "Importance": 14
+                        },
+                        {
+                            "Feature": "d105",
+                            "Importance": 14
+                        },
+                        {
+                            "Feature": "d92",
+                            "Importance": 14
+                        },
+                        {
+                            "Feature": "d37",
+                            "Importance": 14
+                        },
+                        {
+                            "Feature": "d22",
+                            "Importance": 13
+                        },
+                        {
+                            "Feature": "d56",
+                            "Importance": 13
+                        },
+                        {
+                            "Feature": "d93",
+                            "Importance": 13
+                        },
+                        {
+                            "Feature": "d40",
+                            "Importance": 13
+                        },
+                        {
+                            "Feature": "d57",
+                            "Importance": 13
+                        },
+                        {
+                            "Feature": "d24",
+                            "Importance": 13
+                        },
+                        {
+                            "Feature": "d63",
+                            "Importance": 13
+                        },
+                        {
+                            "Feature": "d124",
+                            "Importance": 13
+                        },
+                        {
+                            "Feature": "d113",
+                            "Importance": 12
+                        },
+                        {
+                            "Feature": "d112",
+                            "Importance": 12
+                        },
+                        {
+                            "Feature": "d27",
+                            "Importance": 12
+                        },
+                        {
+                            "Feature": "d77",
+                            "Importance": 12
+                        },
+                        {
+                            "Feature": "d94",
+                            "Importance": 12
+                        },
+                        {
+                            "Feature": "d128",
+                            "Importance": 12
+                        },
+                        {
+                            "Feature": "d23",
+                            "Importance": 11
+                        },
+                        {
+                            "Feature": "d17",
+                            "Importance": 11
+                        },
+                        {
+                            "Feature": "d52",
+                            "Importance": 10
+                        },
+                        {
+                            "Feature": "d70",
+                            "Importance": 10
+                        },
+                        {
+                            "Feature": "d8",
+                            "Importance": 10
+                        },
+                        {
+                            "Feature": "d118",
+                            "Importance": 10
+                        },
+                        {
+                            "Feature": "d81",
+                            "Importance": 10
+                        },
+                        {
+                            "Feature": "d46",
+                            "Importance": 10
+                        },
+                        {
+                            "Feature": "d20",
+                            "Importance": 10
+                        },
+                        {
+                            "Feature": "d49",
+                            "Importance": 8
+                        },
+                        {
+                            "Feature": "step",
+                            "Importance": 8
+                        },
+                        {
+                            "Feature": "d83",
+                            "Importance": 3
+                        },
+                        {
+                            "Feature": "furthest_dist",
+                            "Importance": 0
+                        }
+                    ],
+                    "n_estimators": 100
+                }
+            }
+        }
+    }
+}

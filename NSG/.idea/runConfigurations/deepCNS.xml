@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="deep提取CNS特征" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--dataset=DEEP10M --K=100 --L=750 --mode=our_Raet_CNS_train_data --query_type=train --query_num=10000 --out_put_path=$PROJECT_DIR$/../NSG-data/train_data/raet_CNS/DEEP10M/k100/efS750_qs10000.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="efanna2e" TARGET_NAME="test_nsg_optimized_search" CONFIG_NAME="lxx-Release" RUN_TARGET_PROJECT_NAME="efanna2e" RUN_TARGET_NAME="test_nsg_optimized_search">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>
